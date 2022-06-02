@@ -1,6 +1,6 @@
 # Machine Learning Clustering Analysis 
 
-## An Hierarchical and Non Hierarchical Machine Learning Clustering aproach in order to analyse Mc Donald's Hamburguer's nutritional table segregating the hamburguers in clusters based on the nutritional values.
+### Our Dataset is a nutritional table without predefined target labels, so we will want to develop machine learning models that can classify correctly this data, by finding by themselves some commonality in the features. In the study Hierarchical and Non Hierarchical Clustering aproaches are applied in order to analyse the nutritional properties simmilarity between Mc Donald's Hamburguer's.
 ***
 
 #### Loading Libraries 
