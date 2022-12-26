@@ -1,11 +1,13 @@
-# Jonathan Martimiano T. Santos
-## Data Science Mechanical Enigneer
+# - 👋 Hi Dear, I'm Jonathan Martimiano
+## Data Science Enigneer
 
-- 👋 Hi, I’m @Jonathan-Martimiano
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- ⚙️ Mechanical Engineer Graduated
+- 🤖 Data Science and Analytics Post Graduated
+- 🏎️ I'm currently working at General Motors
+- 📫 Reach me at Jonathanmartimiano@outlook.com
+
+🧰 Python, R, Power BI, KNIME, Hadoop, SQL
+
 
 <!---
 Jonathan-Martimiano/Jonathan-Martimiano is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
