@@ -21,6 +21,8 @@
   ### Main Tools
   
   <a href="https://github.com/Jonathan-Martimiano/Jonathan-Martimiano" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" target="_blank"></a> 
+  
+  <a href="https://github.com/Jonathan-Martimiano/Jonathan-Martimiano" target="_blank"><img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" target="_blank"></a>
     
   🧰 Python, R, Power BI, KNIME, Hadoop, SQL
 
