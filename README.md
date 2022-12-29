@@ -23,6 +23,16 @@
   <a href="https://github.com/Jonathan-Martimiano/Jonathan-Martimiano" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" target="_blank"></a> 
   
   <a href="https://github.com/Jonathan-Martimiano/Jonathan-Martimiano" target="_blank"><img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" target="_blank"></a>
+  
+  <a href="https://github.com/Jonathan-Martimiano/Jonathan-Martimiano" target="_blank"><img src="https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=white" target="_blank"></a>
+  
+  <a href="https://github.com/Jonathan-Martimiano/Jonathan-Martimiano" target="_blank"><img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=Databricks&logoColor=white" target="_blank"></a>
+  
+   ### Previous  Contact
+  
+  
+  
+  
     
   🧰 Python, R, Power BI, KNIME, Hadoop, SQL
 
