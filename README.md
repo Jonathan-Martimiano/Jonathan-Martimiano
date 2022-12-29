@@ -28,17 +28,8 @@
   
   <a href="https://github.com/Jonathan-Martimiano/Jonathan-Martimiano" target="_blank"><img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=Databricks&logoColor=white" target="_blank"></a>
   
-   ### Previous  Contact
-  
-  
-  
-  
-    
-  🧰 Python, R, Power BI, KNIME, Hadoop, SQL
-
-  
+      
 <div> 
-  <a href="https://www.outlook/Jonathanmartimiano@outlook.com" target="_blank"><img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/jonathansantos01/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
  
   ![Snake animation](https://github.com/rafaballerini/rafaballerini/blob/output/github-contribution-grid-snake.svg)
