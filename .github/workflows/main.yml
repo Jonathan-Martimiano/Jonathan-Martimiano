@@ -33,7 +33,7 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: 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
           branch: master
           force: true
 
@@ -43,4 +43,4 @@ jobs:
           target_branch: output
           build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: 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
