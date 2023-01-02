@@ -26,10 +26,15 @@
   
 <div> 
   <a href="https://www.linkedin.com/in/jonathansantos01/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
- 
+  
   ### Github Contribuitions
-  [![Jonahan's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=Jonathan-Martimiano&custom_title=Jonathan's%20Github%20Contributions&hide_border=true&bg_color=000000&color=708090&line=24292e&point=24292e&area=true)](https://github.com/Jonathan-Martimiano/github-readme-activity-graph)
+  [![Jonahan's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=Jonathan-Martimiano&custom_title=Jonathan's%20Github%20Contributions&hide_border=true&bg_color=000000&color=708090&line=D3D3D3&point=24292e&area=true)](https://github.com/Jonathan-Martimiano/github-readme-activity-graph)
   
   ![Snake animation](https://github.com/rafaballerini/rafaballerini/blob/output/github-contribution-grid-snake.svg)
  
 </div>
+  
+  ### Reach Me at
+  
+   <a href="mailto:jonathanmartimiano@outlook.com" target="_blank"><img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" target="_blank"></a> 
+  
