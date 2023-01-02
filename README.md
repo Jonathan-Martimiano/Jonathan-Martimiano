@@ -22,14 +22,14 @@
   
   <a href="https://github.com/Jonathan-Martimiano/Jonathan-Martimiano" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" target="_blank"></a> <a href="https://github.com/Jonathan-Martimiano/Jonathan-Martimiano" target="_blank"><img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" target="_blank"></a> <a href="https://github.com/Jonathan-Martimiano/Jonathan-Martimiano" target="_blank"><img src="https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=white" target="_blank"></a> <a href="https://github.com/Jonathan-Martimiano/Jonathan-Martimiano" target="_blank"><img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=Databricks&logoColor=white" target="_blank"></a>
   
-      
+  ### Professional Career    
+  
 <div> 
   <a href="https://www.linkedin.com/in/jonathansantos01/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
  
   ### Github Contribuitions
-  [![Jonahan's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=Jonathan-Martimiano)](https://github.com/Jonathan-Martimiano/github-readme-activity-graph)
+  [![Jonahan's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=Jonathan-Martimiano&custom_title=Jonathan's%20Github%20Contributions&hide_border=true&bg_color=000000&color=708090&line=24292e&point=24292e&area=true)](https://github.com/Jonathan-Martimiano/github-readme-activity-graph)
   
-  ### Github Commits
   ![Snake animation](https://github.com/rafaballerini/rafaballerini/blob/output/github-contribution-grid-snake.svg)
  
 </div>
