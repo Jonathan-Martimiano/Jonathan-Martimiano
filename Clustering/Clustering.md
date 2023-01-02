@@ -1,6 +1,6 @@
 # Machine Learning Clustering Analysis 
 
-### Our Dataset is a nutritional table without predefined target labels, so we will want to develop machine learning models that can classify correctly this data, by finding by themselves some commonality in the features. In the study Hierarchical and Non Hierarchical Clustering aproaches are applied in order to analyse the nutritional properties simmilarity between Mc Donald's Hamburguer's.
+### In the study both Hierarchical and Non Hierarchical Clustering aproaches are applied in order to analyse the nutritional properties simmilarity between Mc Donald's Hamburguer's.
 ***
 
 #### Loading Libraries 
@@ -72,10 +72,10 @@ table(hamburguer_groups)
 ```
 
 >Four groups were created:    
--> First Group has 21 Hamburguer Flavors  
+-> First Group has 21 Hamburguers Flavors  
 -> Second Group has 1 Hamburguer Flavor   
 -> Third Group has 1 Hambuerguer Flavor  
--> Fourth Group has 2 Hamburguer Flavors  
+-> Fourth Group has 2 Hamburguers Flavors  
 
 #### Transforming in Dataframe the Clustering Output  
 
