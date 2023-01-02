@@ -1,6 +1,6 @@
 # Introduction
 
->In this study we are going to apply Linear Regression and Neural Network models in a famous dataset called Boston Housing Values in Suburbs of Boston, in order to compare the predictive capability of a machine learning vs a deep learning model.
+>In this study we are going to apply Linear Regression and Neural Network models in a famous dataset called Boston Housing Values in Suburbs of Boston, in order to compare the predictive capability of a Machine Learning vs a Deep Learning model.
 
 #### Importing libraries
 
