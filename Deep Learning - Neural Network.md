@@ -65,7 +65,22 @@ train <- data.frame(data[1:train_test_split_index,])
 test <- data.frame(data[(train_test_split_index+1): nrow(data),])
 ```
 
+## CART
+> Tree Classification and Regression, supervised learning algorithm used to build decision trees for classification and regression.
 
+### Decision Tree
+> `1st Line` Creates a regression decision tree using the 'rpart' package and assigning it to the variable "fit_tree". The dependent variable is "medv" and the independent variables are all other columns in the "train" dataset. The method used is "anova".
+
+> `2nd Line` Using the "predict" function to make predictions using the "fit_tree" model on the test dataset "test". Predictions are stored in the "tree_predict" variable.
+
+> `3rd Line` Calculates the Mean Squared Error (MSE) between the "tree_predict" predictions and the "test$medv" actual values using the "mean" function and stores the result in the "mse_tree" variable. MSE is the average of the squared differences between the predicted and actual values. The lower the value, the better the model.
+```
+fit_tree <- rpart(medv ~.,method="anova", data=train)
+tree_predict <- predict(fit_tree,test)
+mse_tree <- mean((tree_predict - test$medv)^2)
+```
+
+a
 
 
 
