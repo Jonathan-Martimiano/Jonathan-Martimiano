@@ -3,10 +3,13 @@
 >In this study we are going to apply Linear Regression and Neural Network models in a famous dataset called Boston Housing Values in Suburbs of Boston, in order to compare the predictive capability of a Machine Learning vs a Deep Learning model.
 
 #### Importing libraries
-
+> MASS -> Data analysis statiscal models \
+> rpart -> Classification and regression decision trees \
+> neuralnet -> Neural network models
 ```R
 library("MASS")
 library("rpart")
+library("neuralnet")
 ```
 #### Set.Seed(0) function for standardize random data
 
@@ -57,6 +60,9 @@ data[is.na(data) == TRUE]
 
 ```{r setup, include=FALSE}
 train_test_split_index <- 0.8 * nrow(data)
+
+train <- data.frame(data[1:train_test_split_index,])
+test <- data.frame(data[(train_test_split_index+1): nrow(data),])
 ```
 
 
