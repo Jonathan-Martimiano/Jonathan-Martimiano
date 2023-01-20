@@ -1,6 +1,6 @@
 # Introduction
 
->In this study we are going to apply Linear Regression and Neural Network models in a famous dataset called Boston Housing Values in Suburbs of Boston, in order to compare the predictive capability of a Machine Learning vs a Deep Learning model.
+>In this study we are going to apply Decision Tree Regression and Neural Network models in a famous dataset called Boston Housing Values in Suburbs of Boston, in order to compare the predictive capability of a Machine Learning vs a Deep Learning model.
 
 #### Importing libraries
 > MASS -> Data analysis statiscal models \
@@ -49,11 +49,9 @@ data[is.na(data) == TRUE]
 >Zero Missing Values Identified \
 ![Missing Values Check](https://imgur.com/dWKwLgm.png)
 
-## Linear Regression Model
+## Decision Tree Regression Model
 ### Function Concepts
-> The goal of linear regression is to find the best-fitting line through the data points, it assumes that the relationship between the predictor variables and the outcome variable is linear, which means that the change in the outcome variable is proportional to the change in the predictor variables. 
-#### y = f(x) 
-#### y = a + b1*x1 + b2*x2...
+> The Regression Decision Tree focus is to find the best splits in the data to predict a continuous target variable, by partitioning the feature space into different regions that correspond to different values or ranges of values for the target variable. 
 
 ### Train-Test Split 
 > 80% of the sample is going destinated to train the model and 20% for testing
@@ -79,9 +77,40 @@ fit_tree <- rpart(medv ~.,method="anova", data=train)
 tree_predict <- predict(fit_tree,test)
 mse_tree <- mean((tree_predict - test$medv)^2)
 ```
+> The Regression Tree MSE is 46. \
+![MSE_Tree](https://imgur.com/OQpHNXG.png)
 
-a
+## Neural NetWork
+### Scaling Data
+> It scales the data to a specific range, 0->1. This method works well for datasets that do not have outliers.
+```
+max_data <- apply(data, 2, max) 
+min_data <- apply(data, 2, min)
+scaled <- scale(data,center = min_data, scale = max_data - min_data)
+```
+
+### Training the Neural NetWork model
+```
+index = sample(1:nrow(data),round(0.70*nrow(data)))
+train_data <- as.data.frame(scaled[index,])
+test_data <- as.data.frame(scaled[-index,])
+```
+### Ploting the Neural NetWork
+```
+nn <- neuralnet(medv~crim+zn+indus+chas+nox+rm+age+dis+rad+tax+ptratio+black+lstat,data=train_data,hidden=c(5,4,3,2),linear.output=T)
+plot(nn)
+```
+> Converter formato imagem do R para PNG
+```
+png("Regression Decision Tree.png", width = 800, height = 600)
+plot(nn)
+dev.off()
+```
+![Regression Decision Tree](https://imgur.com/Lfz8niT.png) 
+> The Neural NetWork MSE is 9. \
+![image](https://user-images.githubusercontent.com/76530436/213609477-06505ff8-39e6-48d2-b2ba-3a2c9b8f822f.png) 
 
 
+> Analysis Completed: We can prove that the Neural NetWork MSE predicting the Boston's Houses Prices is lower than the Regression Decision Tree. 
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.jpeg)
+
